@@ -1,4 +1,4 @@
-const GOOGLE_SHEETS_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbxyVdTBAdsy-CLYk0lUNW2qht7_--2HYaSaLdViy4c-6bW7JPN-aUzfazMLLM1VVAQ8Hg/exec';
+const GOOGLE_SHEETS_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbybEDmO1IUU5-1-igS3pOpwwNqCwjnvWgLaOECj6TPYTVPIAwsnWVKritrKA7p5gL60BQ/exec';
 
 let productsData = [];
 let salesRepresentatives = [];
@@ -322,5 +322,6 @@ document.addEventListener('DOMContentLoaded', () => {
   loadAllData();
   visitForm.addEventListener('submit', handleSubmit);
 });
+
 
 
